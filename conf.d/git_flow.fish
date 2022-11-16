@@ -35,3 +35,33 @@ abbr gfhs "git flow hotfix start"
 abbr gfs "git flow support"
 abbr gfs "git flow support start"
 
+function git_flow_uninstall --on-event git_flow_uninstall
+    set -e git_flow_version
+    abbr -e gfi
+
+    abbr -e gff
+    abbr -e gffs
+    abbr -e gffd
+    abbr -e gfff
+    abbr -e gffl
+    abbr -e gffp
+    abbr -e gffpl
+    abbr -e gffr
+    abbr -e gffs
+    abbr -e gfft
+
+    abbr -e gfr
+    abbr -e gfrf
+    abbr -e gfrl
+    abbr -e gfrpb
+    abbr -e gfrs
+    abbr -e gfrt
+
+    abbr -e gfh
+    abbr -e gfhf
+    abbr -e gfhl
+    abbr -e gfhs
+
+    abbr -e gfs
+    abbr -e gfs
+end
